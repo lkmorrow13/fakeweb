@@ -15,3 +15,7 @@ window.onclick = function(event) {
 setTimeout(function() {
     modal.style.display = "block";
 }, 3000);
+
+document.getElementById('bleachclick').addEventListener('click', function () {
+	modal.style.display = "none";
+});
